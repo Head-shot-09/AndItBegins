@@ -1,0 +1,250 @@
+body{
+    background-color:rgb(43, 41, 41);
+    color:white;
+}
+
+
+#h1{
+    font-size:1.3em;
+    color:rgb(181, 228, 240);
+    text-align:center;
+}
+
+#h3{
+    color:white;
+    text-align:center;
+}
+
+#la1{
+    color: white;
+    font-size:0.9em;
+    margin:1px;
+}
+
+#btn1{
+    border-radius: 5px;
+    background-color: rgb(173, 173, 173);
+}
+#btn1:hover{
+    border-color: white;
+    size:1.1em;
+}
+
+#no1{
+    font-size:6em;
+    display:block;
+    text-align:center;
+}
+#contain{
+    text-align:center;
+}
+.no{
+    padding:5px 10px;
+    font-size:1.3em;
+    color:white;
+    background-color:rgb(57, 159, 255);
+    cursor:pointer;
+    transition:background-color 0.25;
+}
+
+.no:hover{
+    background-color:rgb(57, 242, 255);
+}
+
+#dec{
+    padding:5px 10px;
+    font-size:1.3em;
+    color:white;
+    background-color:rgb(57, 159, 255);
+    cursor:pointer;
+    transition:background-color 0.25;
+}
+
+#dec:hover{
+    background-color:rgb(57, 242, 255);
+}
+
+#random{
+    text-align:center;
+    font-size:2.5em;
+    padding:5px, 10px;
+}
+
+#ran{
+    font-size:3em;
+    font-family:bold;
+
+}
+
+#radiocheck{
+    font-size:2em;
+    border:2px solid white;
+    text-align:center;
+}
+
+#pay{
+    padding:10px, 10px;
+    font-size:1.2em;
+    text-align:center;
+}
+
+#gamelabel{
+    color:white;
+    font-size:2.4em;
+}
+
+#gamebutton{
+    color:Black;
+    font-size:2.5em;
+    text-align: center;
+}
+
+#pasla{
+    font-size: 1.4em;
+}
+#gene{
+    display:inline-block;
+    font-size:1.3em;
+    text-align:center;
+}
+#pass{
+    font-size:1.5em;
+    text-align:center;
+    border-bottom:2px solid white;
+
+}
+
+#passs{
+    font-size:1.4em;
+    border:2px solid white;
+    
+}
+
+.weatherForm{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.inputWeather{
+    padding:10px 10px;
+    margin:0;
+    font-size:1.2em;
+    color:hsl(0, 0%, 22%);
+    font-weight:bold;
+    border: 2px solid hsl(0, 2%, 50%);
+    border-radius:12px;
+}
+
+button[type=submit]{
+    background-color: hsl(180, 89%, 56%);
+    padding:6px 6px;
+    margin-top:10px;
+    margin-bottom:12px;
+    font-size:1.1em;
+    font-weight:bold;
+    border:none;
+    border-radius: 8px;
+}
+
+button[type=submit]:hover{
+    background-color:hsl(212, 94%, 69%);
+}
+
+.cardSyle{
+    border:1.2px solid hsl(180, 89%, 76%);
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.cityName{
+    font-size:2em;
+    font-weight:bold;
+    color:hsl(180, 56%, 61%);
+    margin-top:10px;
+    
+}
+
+.temp{
+    font-size:1.4em;
+    font-weight:bold;
+    color:hsla(0, 0%, 100%, 0.767);
+}
+
+.humidity{
+    font-size:1.4em;
+    font-weight:bold;
+    color:hsla(0, 0%, 100%, 0.767);
+}
+
+.descWeather{
+    font-size:1.5em;
+    font-weight:bold;
+    font-style: italic;
+    color:rgb(243, 228, 228);
+
+}
+
+.error{
+    font-size:3em;
+    font-weight: bold;
+}
+
+#todotodo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputTodo{
+    padding:5px 5px;
+    margin:0;
+    font-size:1.2em;
+    font-weight:bold;
+    border-radius:7px;
+}
+
+.buttTodo{
+    padding:3px 3px;
+    margin:5px;
+    width:200px;
+    font-size:1.1em;
+    border-radius:9px;
+    background-color:hsl(184, 46%, 33%);
+    color:white;
+}
+.buttTodo:hover{
+    background-color:hsl(207, 46%, 16%);
+}
+
+#deletee{
+    background-color: hsla(0, 100%, 64%, 0.842);
+}
+
+#deletee:hover{
+    background-color: rgba(180, 6, 6, 0.733);
+}
+
+.lsts{
+    font-size:1.5em;
+    color:rgb(201, 240, 250);
+    font-weight:bold;
+    margin-left:5px;
+}
+
+#myRockGame{
+    display:flex;
+    flex-direction: column;
+}
+
+.rockgame{
+    width:132px;
+    margin-top:10px;
+    padding:4px 4px;
+    font-size:1.3em;
+    font-weight: bold;
+}
